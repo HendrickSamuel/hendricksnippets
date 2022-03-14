@@ -1,0 +1,41 @@
+{
+    "React Function Default Export": {
+        "scope": "typescriptreact",
+        "prefix": "!certirf",
+        "body": [
+            "import React from 'react';",
+            "",
+            "const $1: React.FC = () => {",
+            "\t//Attributes",
+            "",
+            "\t//Functions",
+            "",
+            "\t//Render",
+            "\treturn (${2:<></>});",
+            "};",
+            "",
+            "export default $1;"
+        ],
+        "description": "creates a react functionnal component"
+    },
+    "React Function Default Expport with props": {
+        "scope": "typescriptreact",
+        "prefix": "!certirfp",
+        "body": [
+            "import React from 'react';",
+            "import {$1Props} from 'react';",
+            "",
+            "const $1: React.FC<$1Props> = ({}) => {",
+            "\t//Attributes",
+            "",
+            "\t//Functions",
+            "",
+            "\t//Render",
+            "\treturn (${2:<></>});",
+            "};",
+            "",
+            "export default $1;"
+        ],
+        "description": "creates a react functionnal component with props"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "React Storybook Story": {
+        "scope": "typescriptreact",
+        "prefix": "!certistory",
+        "body": [
+            "import React from 'react';",
+            "import { Story, Meta } from '@storybook/react';",
+            "import $1 from '.';",
+            "",
+            "export default {",
+            "\tcomponent: $1,",
+            "\ttitle: 'Folder/$1',",
+            "\targTypes: {},",
+            "} as Meta;",
+            "",
+            "const Template: Story = () => (",
+            "\t<$1 />",
+            ");",
+            "",
+            "export const Default = Template.bind({});",
+            "Default.args = {}"
+        ],
+        "description": "creates a react ts story"
+    },
+    "React Storybook Story with props": {
+        "scope": "typescriptreact",
+        "prefix": "!certistoryp",
+        "body": [
+            "import React from 'react';",
+            "import { Story, Meta } from '@storybook/react';",
+            "import { $2 } from './props';",
+            "import $1 from '.';",
+            "",
+            "export default {",
+            "\tcomponent: $1,",
+            "\ttitle: 'Folder/$1',",
+            "\targTypes: {},",
+            "} as Meta;",
+            "",
+            "const Template: Story<$2> = (args) => (",
+            "\t<$1 {...args} />",
+            ");",
+            "",
+            "export const Default = Template.bind({});",
+            "Default.args = {} as $2"
+        ],
+        "description": "creates a react ts story"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "TS props": {
+        "scope": "typescriptreact",
+        "prefix": "!certiprops",
+        "body": ["export interface $1Props {}"],
+        "description": "creates a props interface"
+    }
+}

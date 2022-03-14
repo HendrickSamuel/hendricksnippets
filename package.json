@@ -1,0 +1,29 @@
+{
+    "name": "certisnippets",
+    "displayName": "certisnippets",
+    "description": "snipets to upgrade performance",
+    "version": "0.0.1",
+    "icon": "./imagegen.jpg",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/next/function-component.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/next/props.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/next/storybook-story.json"
+            }
+        ]
+    }
+}
