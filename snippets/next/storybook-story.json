@@ -52,12 +52,12 @@
         "body": [
             "Default.parameters = {",
             "\tnextRouter: {",
-            "//path can use '[variable]'",
+            "\t\t//path can use '[variable]'",
             "\t\tpath: \"/path\",",
             "\t\tasPath: \"/path\",",
             "\t\tquery: {",
             "\t\t},",
-            "\t\tpush() {//override push action for storybook}",
+            "\t\tpush: () => {/*override push action for storybook*/}",
             "\t},",
             "};"
         ],
