@@ -45,5 +45,22 @@
             "Default.args = {} as $2"
         ],
         "description": "creates a react ts story"
+    },
+    "router config": {
+        "scope": "typescriptreact",
+        "prefix": "!certistory-router",
+        "body": [
+            "Default.parameters = {",
+            "\tnextRouter: {",
+            "//path can use '[variable]'",
+            "\t\tpath: \"/path\",",
+            "\t\tasPath: \"/path\",",
+            "\t\tquery: {",
+            "\t\t},",
+            "\t\tpush() {//override push action for storybook}",
+            "\t},",
+            "};"
+        ],
+        "description": "creates a storybook router config"
     }
 }
