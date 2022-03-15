@@ -23,7 +23,7 @@
         "prefix": "!hrfp",
         "body": [
             "import React from 'react';",
-            "import {$1Props} from 'react';",
+            "import {$1Props} from './props';",
             "",
             "const $1: React.FC<$1Props> = ({}) => {",
             "\t//Attributes",

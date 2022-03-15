@@ -28,7 +28,7 @@
         "body": [
             "import React from 'react';",
             "import { Story, Meta } from '@storybook/react';",
-            "import { $2 } from './props';",
+            "import { $1Props } from './props';",
             "import $1 from '.';",
             "",
             "export default {",
@@ -37,12 +37,12 @@
             "\targTypes: {},",
             "} as Meta;",
             "",
-            "const Template: Story<$2> = (args) => (",
+            "const Template: Story<$1Props> = (args) => (",
             "\t<$1 {...args} />",
             ");",
             "",
             "export const Default = Template.bind({});",
-            "Default.args = {} as $2"
+            "Default.args = {} as $1Props"
         ],
         "description": "creates a react ts story"
     },

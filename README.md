@@ -9,6 +9,7 @@ all snippets will start with `!h`
 ## Known Issues
 
 None so far but feel free to report any as an issue on this project
+[here](https://github.com/HendrickSamuel/hendricksnippets/issues)
 
 ---
 
