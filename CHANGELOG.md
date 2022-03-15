@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "certisnippets" extension will be documented in this file.
+All notable changes to the "hendricksnippets" extension will be documented in this file.
 
 ## [0.0.1] - 14-03-2022
 

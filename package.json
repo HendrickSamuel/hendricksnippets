@@ -1,18 +1,10 @@
 {
-    "name": "certisnippets",
-    "displayName": "certisnippets",
+    "name": "hendricksnippets",
+    "displayName": "hendrick snippets",
     "description": "snipets to upgrade performance",
     "version": "0.0.1",
-    "publisher": "Hendrick Samuel @ Certinergie",
-    "bugs": {
-        "url": "https://github.com/HendrickSamuel/certisnippets/issues",
-        "email": "samuel@certinergie.be"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/HendrickSamuel/certisnippets"
-    },
-    "icon": "./assets/imagegen.jpg",
+    "publisher": "hendricksamuel",
+    "icon": "assets/PP_Sam_PNG.png",
     "engines": {
         "vscode": "^1.65.0"
     },

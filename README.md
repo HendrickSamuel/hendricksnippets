@@ -1,10 +1,10 @@
 # certisnippets README
 
-This vscode extensions is used to help remove reccurent task for the frontend devs at certinergie.
+This vscode extensions is used to help remove reccurent tasks I come accross often.
 
 ## Features
 
-all snippets will start with `!certi`
+all snippets will start with `!h`
 
 ## Known Issues
 
@@ -19,9 +19,9 @@ None so far but feel free to report any as an issue on this project
 Initial release of the snippet extension
 
 -   Nextjs Snippets
-    -   `!certirf` : creates a react function component with **props**
-    -   `!certirfp` : creates a react function component
-    -   `!certiprops` : create an interface to use as props
-    -   `!certistory` : creates a storybook story
-    -   `!certistoryp` : creates a storybook story with **props**
-    -   `!certistory-router` : creates a storybook router configuration
+    -   `!hrf` : creates a react function component with **props**
+    -   `!hrfp` : creates a react function component
+    -   `!hprops` : create an interface to use as props
+    -   `!hstory` : creates a storybook story
+    -   `!hstoryp` : creates a storybook story with **props**
+    -   `!hstory-router` : creates a storybook router configuration

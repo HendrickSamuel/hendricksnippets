@@ -1,7 +1,7 @@
 {
     "React Function Default Export": {
         "scope": "typescriptreact",
-        "prefix": "!certirf",
+        "prefix": "!hrf",
         "body": [
             "import React from 'react';",
             "",
@@ -20,7 +20,7 @@
     },
     "React Function Default Expport with props": {
         "scope": "typescriptreact",
-        "prefix": "!certirfp",
+        "prefix": "!hrfp",
         "body": [
             "import React from 'react';",
             "import {$1Props} from 'react';",

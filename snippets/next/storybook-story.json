@@ -1,7 +1,7 @@
 {
     "React Storybook Story": {
         "scope": "typescriptreact",
-        "prefix": "!certistory",
+        "prefix": "!hstory",
         "body": [
             "import React from 'react';",
             "import { Story, Meta } from '@storybook/react';",
@@ -24,7 +24,7 @@
     },
     "React Storybook Story with props": {
         "scope": "typescriptreact",
-        "prefix": "!certistoryp",
+        "prefix": "!hstoryp",
         "body": [
             "import React from 'react';",
             "import { Story, Meta } from '@storybook/react';",
@@ -48,7 +48,7 @@
     },
     "router config": {
         "scope": "typescriptreact",
-        "prefix": "!certistory-router",
+        "prefix": "!hstory-router",
         "body": [
             "Default.parameters = {",
             "\tnextRouter: {",
