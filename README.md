@@ -1,4 +1,4 @@
-# certisnippets README
+# hendricksnippets README
 
 This vscode extensions is used to help remove reccurent tasks I come accross often.
 
