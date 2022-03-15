@@ -2,7 +2,7 @@
     "name": "hendricksnippets",
     "displayName": "hendrick snippets",
     "description": "snipets to upgrade performance",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "hendricksamuel",
     "bugs": {
         "url": "https://github.com/HendrickSamuel/hendricksnippets/issues",
@@ -26,7 +26,7 @@
                 "path": "./snippets/next/function-component.json"
             },
             {
-                "language": "typescriptreact",
+                "language": "typescript",
                 "path": "./snippets/next/props.json"
             },
             {

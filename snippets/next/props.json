@@ -1,6 +1,6 @@
 {
     "TS props": {
-        "scope": "typescriptreact",
+        "scope": "typescript",
         "prefix": "!hprops",
         "body": ["export interface $1Props {}"],
         "description": "creates a props interface"
